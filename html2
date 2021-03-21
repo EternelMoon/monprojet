@@ -96,12 +96,19 @@
             <table>
                 <tr>
                     <td>#</td><td>Rank</td><td>Pseudo</td><td>Score</td>
-                    <td colspan="3">TOP 3</td><td>1</td><td>KillerPlayer</td><td>7500</td>
+                </tr>    
+                    <td rowspan="3">TOP 3</td><td>1</td><td>KillerPlayer</td><td>7500</td>
+                </tr>    
                     <td>2</td><td>TheFan</td><td>6500</td>
+                </tr>    
                     <td>3</td><td>HatMan</td><td>6350</td>
+                </tr>    
                     <td><img href="#"></td><td>4</td><td>Dillinger</td><td>4000</td>
+                </tr>    
                     <td><img href="#"></td><td>5</td><td>BillyBoy</td><td>3995</td>
+                </tr>    
                     <td><img href="#"></td><td>6</td><td>HopeLess</td><td>3500</td>
+                </tr>    
                     <td>Last update: May 2017</td>
                 </tr>
             </table>
