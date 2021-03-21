@@ -50,7 +50,7 @@
            <p>Mike Powell, UK</p>
        </div>
        <p>Statistics</p>
-       <a href="#">Games</a> &gt&gt; <a href="#">Cards</a> &gt&gt; <a href="#">Inscription</a></li>
+       <a href="#">Games</a> &gt&gt; <a href="#">Cards</a> &gt&gt; <a href="#">Inscription</a>
        <div class="Formulaire">
            <img src="keys.png" alt="clef">
            <p>Formulaire d'inscription</p>
@@ -59,11 +59,12 @@
            <form method="POST" action="traitement.php">
                <input type="text" placeholder="Identifiant" id="Identifiant" name="Identifiant"><br>
                <input type="email" placeholder="E-mail" id="E-mail" name="E-mail"><br>
-               <input type="email" placeholder="Confirmer e-mail" id="Confirmer e-mail" name="Confirmer e-mail"><br>
-               <input type="password" placeholder="Mot de passe" id="Mot de passe" name="Mot de passe"><br>
-               <label for="Date de naissance">Date de naissance</label>
-               <input type="date" id="Date de naissance" name="Date de naissance"><br>
+               <input type="email" placeholder="Confirmer e-mail" id="Confirmere-mail" name="Confirmere-mail"><br>
+               <input type="password" placeholder="Mot de passe" id="Motdepasse" name="Motdepasse"><br>
+               <label for="Datedenaissance">Date de naissance</label>
+               <input type="date" id="Datedenaissance" name="Datedenaissance"><br>
                <label for="Pays">Pays</label>
+           </form>
                <form>
                    <select>
                        <option>Belgique</option>
@@ -96,19 +97,26 @@
             <table>
                 <tr>
                     <td>#</td><td>Rank</td><td>Pseudo</td><td>Score</td>
-                </tr>    
+                </tr>  
+                <tr>  
                     <td rowspan="3">TOP 3</td><td>1</td><td>KillerPlayer</td><td>7500</td>
-                </tr>    
+                </tr> 
+                <tr>  
                     <td>2</td><td>TheFan</td><td>6500</td>
-                </tr>    
+                </tr> 
+                <tr> 
                     <td>3</td><td>HatMan</td><td>6350</td>
-                </tr>    
+                </tr>  
+                <tr> 
                     <td><img href="#"></td><td>4</td><td>Dillinger</td><td>4000</td>
-                </tr>    
+                </tr> 
+                <tr> 
                     <td><img href="#"></td><td>5</td><td>BillyBoy</td><td>3995</td>
-                </tr>    
+                </tr> 
+                <tr>  
                     <td><img href="#"></td><td>6</td><td>HopeLess</td><td>3500</td>
-                </tr>    
+                </tr> 
+                <tr> 
                     <td>Last update: May 2017</td>
                 </tr>
             </table>
