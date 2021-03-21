@@ -10,7 +10,7 @@
            consentez à cette utilisation selon les modalités décrites dans notre <span>Charte Cookies</span>
             <div id="fermer"></div>
         </div>
-        <img src="logo-icbig.png" alt="logo">
+        <img src="logo-icbig.png" alt="logo" id = "hautdepage">
         <img src="hhxMhkG.jpg" alt="banniere">
         <nav>
             <ul>
@@ -41,6 +41,13 @@
                    <li>Sign Up</li>
                </ul>
            </nav>
+       </div>
+       <div>
+           <p>Testimonials</p>
+           <p>"Super! On trouve vraiment de tout dans ce site. Et les explications sont très claires"</p>
+           <p>Julie Detras, BE</p>
+           <p>"Time for me to chose the solutions to my problems!<br>Thanks"</p>
+           <p>Mike Powell, UK</p>
        </div>
        <p>Statistics</p>
        <a href="#">Games</a> &gt&gt; <a href="#">Cards</a> &gt&gt; <a href="#">Inscription</a></li>
@@ -79,6 +86,10 @@
            bouton réseau 
         </div>
         <div>
+            <p>Comment jouer?</p>
+            <img src="video-cardgame.jpg" alt="videogame">
+        </div>
+        <div>
             <p>Classement</p>
             <p>Mise à jour automatique dans 15 minutes</p>
             <p>Meilleurs scores</p>
@@ -88,14 +99,13 @@
                     <td colspan="3">TOP 3</td><td>1</td><td>KillerPlayer</td><td>7500</td>
                     <td>2</td><td>TheFan</td><td>6500</td>
                     <td>3</td><td>HatMan</td><td>6350</td>
-                    <td><img href="->"></td><td>4</td><td>Dillinger</td><td>4000</td>
+                    <td><img href="#"></td><td>4</td><td>Dillinger</td><td>4000</td>
+                    <td><img href="#"></td><td>5</td><td>BillyBoy</td><td>3995</td>
+                    <td><img href="#"></td><td>6</td><td>HopeLess</td><td>3500</td>
+                    <td>Last update: May 2017</td>
                 </tr>
-
             </table>
         </div>
-
-
-
-
+        <a href ="#hautdepage"><img src="top.png" alt="flechetop">Haut de page</a>
     </body>
 </html>
