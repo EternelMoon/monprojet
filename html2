@@ -3,6 +3,8 @@
     <head>
         <title>ICBIG a crazy webpage</title>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" href="design.css">
+        <link rel="stylesheet" href="mobile.css">
     </head>
     <body>
         <div class="barre">
@@ -50,7 +52,7 @@
            <p>Mike Powell, UK</p>
        </div>
        <p>Statistics</p>
-       <a href="#">Games</a> &gt&gt; <a href="#">Cards</a> &gt&gt; <a href="#">Inscription</a>
+       <a href="Games.html">Games</a> &gt&gt; <a href="Cards.html">Cards</a> &gt&gt; <a href="Inscription.html">Inscription</a>
        <div class="Formulaire">
            <img src="keys.png" alt="clef">
            <p>Formulaire d'inscription</p>
@@ -64,16 +66,17 @@
                <label for="Datedenaissance">Date de naissance</label>
                <input type="date" id="Datedenaissance" name="Datedenaissance"><br>
                <label for="Pays">Pays</label>
-           </form>
                <form>
-                   <select>
-                       <option>Belgique</option>
-                       <option>France</option>
-                       <option>Allemagne</option>
-                       <option>Hollande</option>
-                       <option>Luxembourg</option> 
-                   </select>
-               </form>
+                <select>
+                    <option>Belgique</option>
+                    <option>France</option>
+                    <option>Allemagne</option>
+                    <option>Hollande</option>
+                    <option>Luxembourg</option> 
+                </select>
+                </form>
+           </form>
+           <form>
                <input type="radio" id="Homme" name="Homme">
                <label for="Homme">Homme</label>
                <input type="radio" id="Femme" name="Femme">
@@ -84,11 +87,11 @@
            </form>
         </div>
         <div>
-           bouton réseau 
+           <img src="fb-google-plus-sign-in.png" alt="buttonreseau">
         </div>
         <div>
             <p>Comment jouer?</p>
-            <img src="video-cardgame.jpg" alt="videogame">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MaMoyipuGu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div>
             <p>Classement</p>
@@ -108,13 +111,13 @@
                     <td>3</td><td>HatMan</td><td>6350</td>
                 </tr>  
                 <tr> 
-                    <td><img href="#"></td><td>4</td><td>Dillinger</td><td>4000</td>
+                    <td><img src="https://img.icons8.com/small/16/26e07f/up-right-arrow.png" alt="flècheverte"></td><td>4</td><td>Dillinger</td><td>4000</td>
                 </tr> 
                 <tr> 
-                    <td><img href="#"></td><td>5</td><td>BillyBoy</td><td>3995</td>
+                    <td><img src="https://img.icons8.com/small/16/fa314a/down-right-arrow.png" alt="flècherouge"></td><td>5</td><td>BillyBoy</td><td>3995</td>
                 </tr> 
                 <tr>  
-                    <td><img href="#"></td><td>6</td><td>HopeLess</td><td>3500</td>
+                    <td><img src="https://img.icons8.com/small/16/fa314a/down-right-arrow.png" alt="flècherouge"></td><td>6</td><td>HopeLess</td><td>3500</td>
                 </tr> 
                 <tr> 
                     <td>Last update: May 2017</td>
