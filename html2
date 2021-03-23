@@ -8,21 +8,24 @@
     </head>
     <body>
         <div class="barre">
+           <div id="fermer">x</div>
            ICBIG utilise des cookies aux fins de fournir ses services et proposer des publicités personnalisées. En utilisant le site, vous 
            consentez à cette utilisation selon les modalités décrites dans notre <span>Charte Cookies</span>
-            <div id="fermer"></div>
+            
         </div>
-        <img src="logo-icbig.png" alt="logo" id = "hautdepage">
-        <img src="hhxMhkG.jpg" alt="banniere">
-        <nav>
+        <nav class="menu1">
             <ul>
-                <li>home</li>
-                <li>Download Now</li>
-                <li>FAQ</li>
+                <li class="faq">FAQ</a></li>
+                <li class="download">Download Now</li>
+                <li class="home">Home</li>  
             </ul>
-        </nav>
-        <input type="search" placeholder="Entrez le nom du jeu ici" id="recherche" name="q"
+        </nav><br>
+        <div class="recherche">
+        <input type="search" placeholder="Entrez le nom du jeu ici" id="recherche1" name="q"
        aria-label="Search through site content"> <button>Search</button>
+       </div>
+        <img src="logo-icbig.png" alt="logo" id = "hautdepage">
+        <img class="got" src="hhxMhkG.jpg" alt="banniere">
        <div class="corpsdepage">
            <p>Categories</p>
            <nav>
@@ -43,7 +46,6 @@
                    <li>Sign Up</li>
                </ul>
            </nav>
-       </div>
        <div>
            <p>Testimonials</p>
            <p>"Super! On trouve vraiment de tout dans ce site. Et les explications sont très claires"</p>
@@ -51,6 +53,7 @@
            <p>"Time for me to chose the solutions to my problems!<br>Thanks"</p>
            <p>Mike Powell, UK</p>
        </div>
+       <div class="statistics"></div>
        <p>Statistics</p>
        <a href="Games.html">Games</a> &gt&gt; <a href="Cards.html">Cards</a> &gt&gt; <a href="Inscription.html">Inscription</a>
        <div class="Formulaire">
@@ -125,5 +128,7 @@
             </table>
         </div>
         <a href ="#hautdepage"><img src="top.png" alt="flechetop">Haut de page</a>
+    </div>
+    </div>
     </body>
 </html>
