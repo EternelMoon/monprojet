@@ -1,0 +1,47 @@
+body {
+    background-color: #3E3E3E;
+}
+.barre {
+    padding: 5px;
+    margin-top: -0.50em;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    background-color: #129ACA;   
+    color: white;
+}
+#fermer {
+    width: 18px;
+    height:18px;
+    display: block;
+    cursor: pointer;
+    float:right;
+    margin-right:30px;
+}
+.menu1 li {
+    float: right;
+    overflow: hidden;
+    width: auto;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: -0.8em;
+}
+.got {
+    max-width: 50%;
+	height: auto;
+    margin-top: -2em;
+}
+#hautdepage {
+    margin-top: -2em;
+}
+.recherche {
+    float: right;
+}
+.corpsdepage {
+    background-color: white;
+    padding: -2em;  
+
+}
+.statistics {
+    float: right;
+}
